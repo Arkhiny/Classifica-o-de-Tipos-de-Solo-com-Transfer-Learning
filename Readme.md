@@ -4,7 +4,7 @@ Este projeto implementa técnicas de **Deep Learning** e **Transfer Learning** p
 
 ## Vídeo Explicativo
 
-📹 **[Assista ao vídeo explicativo do projeto](https://youtu.be/4Lzmhc8DvB4)**
+📹 **[Assista ao vídeo explicativo do projeto](https://youtu.be/HKq521s6UzU)**
 
 Vídeo com explicação da metodologia, implementação e resultados do trabalho.
 
