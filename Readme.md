@@ -208,9 +208,10 @@ Trabalho-Sin-323/
 - **Convergência:** Observável nos gráficos de loss e acurácia
 - **Generalização:** Avaliada pela diferença entre treino e validação
 
-## 📝 Reprodutibilidade
 
-O projeto implementa medidas para garantir resultados reproduzíveis:
+## Reprodutibilidade
+
+O projeto implementa medidas para garantir resultados reproduz�veis:
 
 ```python
 SEED = 42
@@ -222,71 +223,8 @@ torch.backends.cudnn.deterministic = True
 torch.backends.cudnn.benchmark = False
 ```
 
-## 🤝 Contribuições
-
-Contribuições são bem-vindas! Sinta-se à vontade para:
-
-- Reportar bugs
-- Sugerir novas features
-- Melhorar a documentação
-- Adicionar novos modelos
-
-## 📄 Licença
-
-Este projeto é disponibilizado para fins educacionais e de pesquisa.
-
-## 👥 Autores
-
-**Projeto desenvolvido como parte do trabalho da disciplina Sin-323**
-
-## 🙏 Agradecimentos
-
-- Dataset fornecido por **AI4A Lab** no Kaggle
-- Modelos pré-treinados do **PyTorch Model Zoo**
-- Comunidade **PyTorch** pelos tutoriais e documentação
-
-## � Referências
+## Refer�ncias
 
 - [PyTorch Documentation](https://pytorch.org/docs/stable/index.html)
 - [Transfer Learning Tutorial](https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html)
 - [Comprehensive Soil Classification Dataset](https://www.kaggle.com/datasets/ai4a-lab/comprehensive-soil-classification-datasets)
-
----
-
-<div align="center">
-
-**⭐ Se este projeto foi útil, considere dar uma estrela! ⭐**
-
-</div>
-
-Abaixo estão as métricas obtidas na avaliação do conjunto de teste (dados nunca vistos pelo modelo durante o treino):
-
-| Modelo | Acurácia no Teste | Melhor Acurácia (Validação) |
-| :--- | :---: | :---: |
-| **AlexNet** | **86.55%** | 90.72% |
-| **ResNet18** | 82.35% | 85.23% |
-
-### Performance por Classe (Exemplo AlexNet)
-O modelo obteve excelente desempenho em solos como **Black_Soil (F1: 0.98)** e **Yellow_Soil (F1: 0.89)**, mas apresentou maior dificuldade em distinguir **Alluvial_Soil**.
-
-## 🚀 Como Executar
-
-1.  Clone este repositório.
-2.  Certifique-se de ter uma conta no Kaggle e um token de API (`kaggle.json`).
-3.  Abra o notebook no Google Colab ou Jupyter Notebook local.
-4.  Instale as dependências necessárias:
-    ```bash
-    pip install torch torchvision scikit-learn matplotlib seaborn
-    ```
-5.  Carregue o arquivo `kaggle.json` quando solicitado na primeira célula para baixar o dataset.
-6.  Execute as células sequencialmente.
-
-## 📈 Visualizações
-
-O notebook gera os seguintes gráficos para análise:
-* Curvas de Loss (Treino vs Validação).
-* Curvas de Acurácia (Treino vs Validação).
-* Matriz de Confusão (Heatmap) para análise de erros entre classes.
-
----
-*Desenvolvido como parte de estudos em Visão Computacional e Deep Learning.*
