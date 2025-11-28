@@ -2,6 +2,12 @@
 
 Este projeto implementa técnicas de **Deep Learning** e **Transfer Learning** para classificar automaticamente diferentes tipos de solo a partir de imagens. Utilizando a biblioteca **PyTorch**, o projeto treina e avalia dois modelos de arquiteturas consagradas: **AlexNet** e **ResNet18**.
 
+## Vídeo Explicativo
+
+📹 **[Assista ao vídeo explicativo do projeto](https://youtu.be/4Lzmhc8DvB4)**
+
+Vídeo com explicação detalhada da metodologia, implementação e resultados do trabalho.
+
 ## Sobre o Projeto
 
 O objetivo principal é desenvolver um classificador de imagens capaz de identificar **7 tipos diferentes de solos**, auxiliando em análises agrícolas e geológicas. O projeto emprega uma abordagem de *Hold-out* para divisão dos dados e *Transfer Learning* com congelamento de pesos das camadas convolucionais para adaptar modelos pré-treinados ao dataset de solos.
